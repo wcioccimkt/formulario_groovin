@@ -1,3 +1,4 @@
+
   <!DOCTYPE html>
   <html lang="pt-br">
 
@@ -15,7 +16,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
     <title>GROOVIN DUO CONTATO</title>
     <link rel="shortcut icon" href="et.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+    
 
   <!--inserir style aqui (CSS)-->
 
@@ -59,8 +61,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
     
     <!--Caixas de texto do formulario-->
-    <form action="https://formspree.io/f/xrgwwqje"
-    method="POST">
+    <form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="e486a06f-e7db-4adf-9007-888cb978b0fd">
     <input type="hidden" name="_autoresponse" value="Obrigado. Recebemos seu contato">
 
     <label for="fname">Nome:</label><br>
@@ -74,6 +76,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
       <!-- Botão para enviar o formulário -->
     <input type="submit" value="Enviar">
+    <input type="hidden" name="redirectTo" value="https://groovin-duo-contato.vercel.app/">
     
 
 
@@ -91,3 +94,4 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   </body>
   </html>
+
